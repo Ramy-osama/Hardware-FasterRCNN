@@ -6,7 +6,7 @@ module maxPooling(
 	input  [7:0] input4,
 	input enable,
     	output reg [7:0] output1,
-	output reg maxPoolingDone
+	output reg maxPoolingDone // flag to indicate that max pooling is done
     );
 	 
 	
