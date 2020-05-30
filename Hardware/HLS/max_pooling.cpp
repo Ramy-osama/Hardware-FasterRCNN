@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
 	int stride;
-	cout<<"enter the stride";
+	cout<<"enter the stride";;
 	cin>>stride;
 	cout<<endl;
   int r, c;
