@@ -1,25 +1,32 @@
 #include <iostream>
 #include<stdio.h>
 #include<vector>
+#include <stdlib.h> 
+#include<time.h> 
 using namespace std;
 
 int main() {
-	int stride;
-	cout<<"enter the stride";
-	cin>>stride;
+int stride=2;
 	cout<<endl;
   int r, c;
   cout<<"enter the input rows and columns";
   cin >> r ;
+cout<<"\n";
   cin>>c;
   cout<<endl;
-  std::vector< std::vector<int> > image;
-  image.resize(r); 
-  for(int i = 0; i < r; i++)
-    image[i].resize(c); 
+  srand(time(0));
+	int image[r][c]; 
   for (int i = 0; i < r; i++) {
     for (int j = 0; j < c; j++) {
-      cin >> image[i][j];
+      image[i][j] = rand()%100;
+    }
+
+  }
+  
+    for (int i = 0; i < r; i++) {
+    	cout<<"\n";
+    for (int j = 0; j < c; j++) {
+      cout<<image[i][j]<<" ";
     }
 
   }
@@ -27,60 +34,60 @@ int main() {
 cout<< endl;
 int r1=0;
 int c1=0;
-int out[1][1];
+int out[r/2][c/2];
 for (int i=0;i<=(r-2);i=i+stride)
 {
 	for(int j=0;j<=(c-2);j=j+stride)
 	{
-		if((image[i][j]>image[i+1][j])&&(image[i][j]>image[i][j+1])&&(image[i][j]>image[i+1][j+1]))
+		if((image[i][j]>=image[i+1][j])&&(image[i][j]>=image[i][j+1])&&(image[i][j]>=image[i+1][j+1]))
         {
         	out[r1][c1]=image[i][j];
         	c1++;
-        		if (c1==(c/2) && r1<((r/2)-1))
+        		if ((c1==(c/2)) && (r1<((r/2)-1)))
         		{
         			c1=0;
         			r1++;
 				}
         
-        
+        continue;
 		}
-else if ((image[i+1][j]>image[i][j])&&(image[i+1][j]>image[i][j+1])&&(image[i+1][j]>image[i+1][j+1]))
+else if ((image[i+1][j]>=image[i][j])&&(image[i+1][j]>=image[i][j+1])&&(image[i+1][j]>=image[i+1][j+1]))
  {
  	out[r1][c1]=image[i+1][j];
         	c1++;
-        		if (c1==(c/2) && r1<((r/2)-1))
+        		if ((c1==(c/2)) && (r1<((r/2)-1)))
         		{
         			c1=0;
         			r1++;
 				}
         
-        	
+        	continue;
 		}
 
-else if((image[i][j+1]>image[i+1][j])&&(image[i][j+1]>image[i][j])&&(image[i][j+1]>image[i+1][j+1])) 
+else if((image[i][j+1]>=image[i+1][j])&&(image[i][j+1]>=image[i][j])&&(image[i][j+1]>=image[i+1][j+1])) 
  {
  		out[r1][c1]=image[i][j+1];
         	c1++;
-        			if (c1==(c/2) && r1<((r/2)-1))
+        		if ((c1==(c/2)) && (r1<((r/2)-1)))
         		{
         			c1=0;
         			r1++;
 				}
         
-        
+        continue;
 		}
 
-else if((image[i+1][j+1]>image[i][j])&&(image[i+1][j+1]>image[i][j+1])&&(image[i+1][j+1]>image[i+1][j])) 
+else if((image[i+1][j+1]>=image[i][j])&&(image[i+1][j+1]>=image[i][j+1])&&(image[i+1][j+1]>=image[i+1][j])) 
  {
  		out[r1][c1]=image[i+1][j+1];
         	c1++;
-        			if (c1==(c/2) && r1<((r/2)-1))
+        			if ((c1==(c/2)) && (r1<((r/2)-1)))
         		{
         			c1=0;
         			r1++;
 				}
         
-        
+        continue;
 		}
 
 	}
@@ -88,10 +95,11 @@ else if((image[i+1][j+1]>image[i][j])&&(image[i+1][j+1]>image[i][j+1])&&(image[i
 c1--;
 for(int i=0;i<=r1;i++)
 {
+	cout<<"\n";
 	for(int j=0;j<=c1;j++)
 	{
-		cout<<out[i][j];
-		cout<<endl;
+		cout<<out[i][j]<<" ";
+		
 	}
 }
 return 0;
