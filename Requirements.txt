@@ -1,0 +1,66 @@
+1- Functions must be fully parameterised
+2- write the function and its testbench and verify using handanalysis
+3- the functions we will write:
+1- Convoloution operation 2 matrices and get the output (stride included) - Rofida
+2- max pooling operation 2 matrices and get the output - Zyad
+3- zeropadding 2D (matrix) -Yehia
+4- ReLU- Omar
+	1- input matrix output matrix matrix
+	2- input 1D array output 1D array 
+	3- There is a flag to choose which mode of operation we will work on
+	
+	
+	
+Notes:
+
+1- Zyad (Max-pooling) : needs to be more general check the required function below
+2- Omar (Relu) : the code doesn't run so check it again 
+3- Rofida (Convolution) : please add the following functionalties to the function (Check later)
+4- Yahia (Zero-Padding) : please add the following functionalties to the function (check later)
+
+
+
+Requirements for each function:
+
+1- The inputs should be randomised and can be seen visually 
+2- Outputs should be visulaised for example if an output is a matrix it should be seen in the matrix form 
+EX:
+1 2 
+3 4
+
+1st version:
+Relu:
+	Inputs: 1- Input matrix
+		2- Output matrix 
+		3- the sizes of the matrices should be defined as macros
+2nd version:
+Relu:
+	Inputs: 1- Input 1D array 
+		2- Output 1D array 
+		3- sizes of the arrays should be defined as macros
+		
+Zero Padding:
+	Inputs:
+		1- Input matrix
+		2- Output matrix
+		3- Number of bits to be padded
+		4- the sizes of the matrices and the number of bits to be padded should be defined as macros
+
+Convolution:
+	Inputs:
+		1- Input matrix
+		2- Ouput matrix
+		3- Weights (in matrix form )
+		4- stride 
+		5- The sizes of the matricies and the size of the weights (3x3 as an example) and the stride should be defined as a 			macro
+		
+Max pooling:
+	Inputs:
+		1- Input matrix
+		2- Kernel size (2x2 default)
+		3- Output matrix
+		4- stride 
+		5- the sizes should all be defined as macros and  the stride should be defined as a macro
+		
+
+
