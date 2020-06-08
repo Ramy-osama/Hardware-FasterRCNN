@@ -1,0 +1,30 @@
+Latest version of codes is V3:
+No use of recursion or dyanmaic memory allocation
+
+
+1- Convolution:
+
+1- Return is void 
+2- Layer 1:
+input image: 200x200x3
+filter size: 3x3x3
+3adad elfilters :64
+output shape: 198x198x64
+Layer2:
+input : 198x198x64
+filter:3x3x64
+3adad elfilters: 20
+output shape: 
+196x196x20
+Layer 3 Max pooling:
+input : 196x196x20
+filter:2x2
+3adad elfilter: 20
+output shape:
+98x98x20
+
+
+
+
+Relu:
+1- Relu11 isn't working
