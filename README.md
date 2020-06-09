@@ -43,7 +43,25 @@ for the full tutorial on how to work with roboflow with your custom dataset plea
 1. Open Faster-RCNN.ipynb
 2. Run this code snippet 
 
-![1](https://user-images.githubusercontent.com/65522542/84104467-08b05e00-aa16-11ea-976e-d5e781555cd4.PNG)
+ ![1](https://user-images.githubusercontent.com/65522542/84104467-08b05e00-aa16-11ea-976e-d5e781555cd4.PNG)
+
+3. Run this code snippet 
+ * Number of evalutation steps isn't important when running the inference mode
+ * If you run this code snippet and doing the training mode i suggest doing a small number of steps as a start ie. num_steps = 100 for example
+ * The extracted frozen_graph.pb attached was done on 1000 steps because the number of the attached images isn't big enough so we don't run on the problem of overfitting
+ * Make sure that the selected_model = 'faster_rcnn_inception_v2' to choose the Faster-RCNN model
+  ![2](https://user-images.githubusercontent.com/65522542/84105102-9b053180-aa17-11ea-9251-2b4d324c9f34.PNG)
+  
+4. Run this code snippet
+
+ ![3](https://user-images.githubusercontent.com/65522542/84105675-4cf12d80-aa19-11ea-89ef-ef27a78664e9.PNG)
+ 
+5. This should be your folder after the last step
+ 
+ ![4](https://user-images.githubusercontent.com/65522542/84105780-a22d3f00-aa19-11ea-9945-2ddf8220d7f4.PNG)
+
+
+
 
 
 
