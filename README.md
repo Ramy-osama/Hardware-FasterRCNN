@@ -96,7 +96,21 @@ for the full tutorial on how to work with roboflow with your custom dataset plea
  
  ![12](https://user-images.githubusercontent.com/65522542/84109415-e3761c80-aa22-11ea-95c4-19ff5b4408db.PNG)
  
- 13. Run the code snippet 
+13. Run the code snippet 
+ 
+14. Run this code snippet 
+ 
+ ![13](https://user-images.githubusercontent.com/65522542/84109596-5384a280-aa23-11ea-86d8-94ce168b589d.PNG)
+
+15. Run these code snippets 
+
+![14](https://user-images.githubusercontent.com/65522542/84109716-947cb700-aa23-11ea-8282-587f27fc34c0.PNG)
+
+16. Create a new sub directory to the data directory named test after this step the folders should look like this 
+
+![15](https://user-images.githubusercontent.com/65522542/84110141-972bdc00-aa24-11ea-9ebe-a40bf9962ea5.PNG)
+
+17.
 
 
 
