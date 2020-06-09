@@ -11,10 +11,10 @@ using namespace std;
 #define image_size 4 //final size = 4*4=24 elements in every channel
 #define image_channels 3 //RGB channels of the input image of the first conv layer
 #define kernel_size 3 
-#define kernel_channels 3 // every channel of the kernel * every channel of the RGB channels
+#define kernel_channels image_channels // every channel of the kernel * every channel of the RGB channels
 #define kernel_filters 2
 #define conv_op_size image_size-kernel_size+1
-#define conv_op_channels 2  //== kernel_filters 
+#define conv_op_channels kernel_filters  //== kernel_filters 
 
 void convo ( int input_image[image_channels][image_size][image_size],
 			int kernel[kernel_filters][kernel_channels][kernel_size][kernel_size],
