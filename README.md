@@ -5,9 +5,17 @@ The second part of the code is the hardware implementation of the backbone netwo
 The hardware implementation will be only used in inference mode and we will use the software implementation to get the correct weights we will 
 use in the hardware part
 
-##Software implementation
 
-We will be simulating the Faster-RCNN architecture using google colabs as this will fasten the training using google servers
+## Software implementation
+
+### Introduction
+
+
+* We will be simulating the Faster-RCNN architecture using google colabs as this will fasten the training using google servers
+* we will use a unique custom dataset which is a subset of the VOCtrainval_11-May-2012 that contains objects that is present on the road normally 
+* This data set is found in the dataset folder where it is divided into training and testing groups
+
+
 
 
 
