@@ -43,7 +43,7 @@ for the full tutorial on how to work with roboflow with your custom dataset plea
 1. Open Faster-RCNN.ipynb
 2. Run this code snippet 
 
-![Alt text](https://github.com/Ramy-osama/Hardware-FasterRCNN/tree/master/Software/steps/1.PNG)
+![Tensor-flow-gpu](https://github.com/Ramy-osama/Hardware-FasterRCNN/tree/master/Software/steps/1.PNG?raw=true)
 
 
 
