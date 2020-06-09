@@ -1,0 +1,50 @@
+item {
+    name: "aeroplane",
+    id: 1,
+    display_name: "aeroplane"
+}
+item {
+    name: "bicycle",
+    id: 2,
+    display_name: "bicycle"
+}
+item {
+    name: "boat",
+    id: 3,
+    display_name: "boat"
+}
+item {
+    name: "bus",
+    id: 4,
+    display_name: "bus"
+}
+item {
+    name: "car",
+    id: 5,
+    display_name: "car"
+}
+item {
+    name: "cow",
+    id: 6,
+    display_name: "cow"
+}
+item {
+    name: "motorbike",
+    id: 7,
+    display_name: "motorbike"
+}
+item {
+    name: "person",
+    id: 8,
+    display_name: "person"
+}
+item {
+    name: "pottedplant",
+    id: 9,
+    display_name: "pottedplant"
+}
+item {
+    name: "train",
+    id: 10,
+    display_name: "train"
+}
