@@ -38,7 +38,13 @@ for the full tutorial on how to work with roboflow with your custom dataset plea
  3. Faster-RCNN.ipynb this is the modified file that we will use for inference or training the Faster-RCNN model
  4. frozen_inference_graph.pb this is the file that will be outputed from the Faster-RCNN.ipynb after training the model using the dataset in the folder, This file will be used in inference mode
  
- 
+### Inference mode
+
+1. Open Faster-RCNN.ipynb
+2. Run this code snippet 
+
+![image][/software/steps/1]
+
 
 
 
