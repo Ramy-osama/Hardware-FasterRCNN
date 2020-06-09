@@ -68,9 +68,24 @@ for the full tutorial on how to work with roboflow with your custom dataset plea
 
  ![6](https://user-images.githubusercontent.com/65522542/84106084-7ced0080-aa1a-11ea-9f56-36a2289f7ada.PNG)
  
-8. Run this code snippet 
+8. Run this code snippet (may remove it )
 
  ![7](https://user-images.githubusercontent.com/65522542/84106815-66e03f80-aa1c-11ea-843a-99bb9fdedd77.PNG)
+ 
+9. Create 2 directories named Test and Train as shown in the following screenshot
+
+ ![8](https://user-images.githubusercontent.com/65522542/84107269-79a74400-aa1d-11ea-9fa2-77ac0926f9ac.PNG)
+
+10. check the Dataset\Dataset1\VOC-test.v2.tfrecord folder where you can see the test and train directories 
+
+ ![9](https://user-images.githubusercontent.com/65522542/84108625-e8d26780-aa20-11ea-9f8c-3ea720171bd8.PNG)
+ 
+11. Add the content in the directories to the directories created in step 9 after this step it should look something like this
+
+ ![10](https://user-images.githubusercontent.com/65522542/84108737-351da780-aa21-11ea-9a73-d88aafa2e72d.PNG)
+
+
+
 
 
 
