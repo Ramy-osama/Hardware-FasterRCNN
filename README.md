@@ -67,6 +67,11 @@ for the full tutorial on how to work with roboflow with your custom dataset plea
 7. This should be your folder after the last step ( Model folder should be added)
 
  ![6](https://user-images.githubusercontent.com/65522542/84106084-7ced0080-aa1a-11ea-9f56-36a2289f7ada.PNG)
+ 
+8. Run this code snippet 
+
+ ![7](https://user-images.githubusercontent.com/65522542/84106815-66e03f80-aa1c-11ea-843a-99bb9fdedd77.PNG)
+
 
 
 
