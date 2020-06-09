@@ -43,7 +43,7 @@ for the full tutorial on how to work with roboflow with your custom dataset plea
 1. Open Faster-RCNN.ipynb
 2. Run this code snippet 
 
-![image][/software/steps/1]
+![Alt text]("Software\steps\1.PNG"?raw=true "Title")
 
 
 
