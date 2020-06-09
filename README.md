@@ -24,6 +24,7 @@ Developers reduce 50% of their code when using Roboflow's workflow, automate ann
 
 This website is used to change from one format to another to the annotation files and this will be used to generate the formats we will need in training 
 in case you need to train on your custom dataset ( note the dataset attached in the dataset folder already has the correct format )
+for the full tutorial on how to work with roboflow with your custom dataset please check the following link [Roboflow](https://blog.roboflow.ai/getting-started-with-roboflow/)
 
 ![alt text](https://i.imgur.com/WHFqYSJ.png)
 
