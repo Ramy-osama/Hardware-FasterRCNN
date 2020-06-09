@@ -35,7 +35,7 @@ in case you need to train on your custom dataset ( note the dataset attached in 
  1. Models contains the actual Faster-RCNN model being implemented 
  2. tensorflow-object-detection-faster-rcnn contains some .ipynb files that we can use to train the dataset on google colab 
  3. Faster-RCNN.ipynb this is the modified file that we will use for inference or training the Faster-RCNN model
- 4. frozen_inference_graph.pb this is the file that will be outputed from the Faster-RCNN.ipynb after training the model that will be used in inference mode
+ 4. frozen_inference_graph.pb this is the file that will be outputed from the Faster-RCNN.ipynb after training the model using the dataset in the folder, This file will be used in inference mode
  
  
 
