@@ -84,6 +84,19 @@ for the full tutorial on how to work with roboflow with your custom dataset plea
 
  ![10](https://user-images.githubusercontent.com/65522542/84108737-351da780-aa21-11ea-9a73-d88aafa2e72d.PNG)
 
+12. we will work with the following code snippet in this step 
+
+ ![11](https://user-images.githubusercontent.com/65522542/84108977-dad11680-aa21-11ea-912d-12b857139893.PNG)
+
+ * In the first variable we should copy the path of the tfrecord file in the test directory we created in step 9 
+ * In the second variable we should copy the path of the tfrecord file in the train directory we created in step 9 
+ * In the third variable we should copy the path of the pbtxt file in the test directory we created in step 9 
+ * Note: in order to copy the path simply right click on the file you want and then paste in the code snippet 
+ * After the following steps this should be the shape of the code snippet 
+ 
+ ![12](https://user-images.githubusercontent.com/65522542/84109415-e3761c80-aa22-11ea-95c4-19ff5b4408db.PNG)
+ 
+ 13. Run the code snippet 
 
 
 
