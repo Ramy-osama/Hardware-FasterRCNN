@@ -96,7 +96,60 @@ for the full tutorial on how to work with roboflow with your custom dataset plea
  
  ![12](https://user-images.githubusercontent.com/65522542/84109415-e3761c80-aa22-11ea-95c4-19ff5b4408db.PNG)
  
- 13. Run the code snippet 
+13. Run the code snippet 
+ 
+14. Run this code snippet 
+ 
+ ![13](https://user-images.githubusercontent.com/65522542/84109596-5384a280-aa23-11ea-86d8-94ce168b589d.PNG)
+
+15. Run these code snippets 
+
+![14](https://user-images.githubusercontent.com/65522542/84109716-947cb700-aa23-11ea-8282-587f27fc34c0.PNG)
+
+16. Create a new sub directory to the data directory named test after this step the folders should look like this 
+
+![15](https://user-images.githubusercontent.com/65522542/84110141-972bdc00-aa24-11ea-9ebe-a40bf9962ea5.PNG)
+
+17. Go to Dataset/Dataset2/subest_udacity_dataset where you can see the images we will use for testing these images are a subset of the udacity dataset 
+
+18. upload the images you want to test in the inference mode to the test directory created in step 16 from the directory stated in step 17 your folders may look like this after uploading
+
+![16](https://user-images.githubusercontent.com/65522542/84110730-b37c4880-aa25-11ea-8253-f9781ca5422f.PNG)
+
+19. Upload the frozen_inference_graph.pb file found in software directory to the tensorflow-object-detection-faster-rcnn folder in google colabs your folders should look something like this( note the added pb file)
+
+![17](https://user-images.githubusercontent.com/65522542/84110968-37363500-aa26-11ea-9e4c-0b2ff00454ff.PNG)
+
+20. Now check this code snippet 
+
+![18](https://user-images.githubusercontent.com/65522542/84111072-6a78c400-aa26-11ea-9beb-165124823c31.PNG)
+
+ * Delete the frozen_inference_graph.pb in the following directory /content/models/research/pretrained_model/frozen_inference_graph.pb
+ * Upload the new frozen_inference_graph.pb found in the software directory in github 
+
+21. Run the code snippet 
+
+22. add the following 2 lines at the start of this code snippet then run it 
+!pip install tf-slim
+num_classes = get_num_classes(label_map_pbtxt_fname)
+
+![20](https://user-images.githubusercontent.com/65522542/84111271-deb36780-aa26-11ea-936b-c8e35d8c549b.PNG)
+
+23.Run the remaining code snippets and enjoy the results!
+
+
+
+### Results
+
+![result](https://user-images.githubusercontent.com/65522542/84113393-c8a7a600-aa2a-11ea-8ba4-86d5915bfe2c.png)
+![result2](https://user-images.githubusercontent.com/65522542/84113399-cb0a0000-aa2a-11ea-9ebe-f04284435362.png)
+![result3](https://user-images.githubusercontent.com/65522542/84113407-ce04f080-aa2a-11ea-880a-11fa78042113.png)
+![result4](https://user-images.githubusercontent.com/65522542/84113412-d0674a80-aa2a-11ea-9799-7ff276c8034d.png)
+![result5](https://user-images.githubusercontent.com/65522542/84113381-c5acb580-aa2a-11ea-983f-d6a7fff82d9c.png)
+
+
+
+
 
 
 
