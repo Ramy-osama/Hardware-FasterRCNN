@@ -31,8 +31,8 @@ using namespace std;
 
 void convo ( int input_image[image_channels][image_size][image_size],
 			int kernel[kernel_filters][kernel_channels][kernel_size][kernel_size],
-			int conv_op[conv_op_channels][conv_op_size][conv_op_size],
-			int bias[kernel_biases]);
+			int bias[kernel_biases],
+			int conv_op[conv_op_channels][conv_op_size][conv_op_size]);
 			    
 
 
