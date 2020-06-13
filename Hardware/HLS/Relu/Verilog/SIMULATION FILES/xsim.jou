@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# xsim v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat Jun 13 10:17:29 2020
+# Process ID: 3236
+# Current directory: C:/Users/ahmed/AppData/Roaming/Xilinx/Vivado/relu/solution1/sim/verilog
+# Command line: xsim.exe -mode tcl -source {xsim.dir/relu/xsim_script.tcl}
+# Log file: C:/Users/ahmed/AppData/Roaming/Xilinx/Vivado/relu/solution1/sim/verilog/xsim.log
+# Journal file: C:/Users/ahmed/AppData/Roaming/Xilinx/Vivado/relu/solution1/sim/verilog\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/relu/xsim_script.tcl
+source relu.tcl

@@ -1,0 +1,4 @@
+sv work "glbl.v"
+sv xil_defaultlib "relu.autotb.v"
+sv xil_defaultlib "relu.v"
+
