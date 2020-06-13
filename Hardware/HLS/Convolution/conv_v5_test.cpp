@@ -24,7 +24,7 @@ using namespace std;
 #define kernel_size                                 3 
 #define kernel_channels                     image_channels 
 #define kernel_filters                              2
-#define kernel_biases                        kernel filters 
+#define kernel_biases                        kernel_filters 
 
 #define conv_op_size                    image_size-kernel_size+1
 #define conv_op_channels                    kernel_filters  
@@ -80,4 +80,6 @@ int main()
 		cout<<endl;
 	}
 	
+}
+
 }
