@@ -1,0 +1,6 @@
+sv work "glbl.v"
+sv xil_defaultlib "AESL_automem_image_r.v"
+sv xil_defaultlib "AESL_automem_out_r.v"
+sv xil_defaultlib "Max_Pooling.autotb.v"
+sv xil_defaultlib "Max_Pooling.v"
+

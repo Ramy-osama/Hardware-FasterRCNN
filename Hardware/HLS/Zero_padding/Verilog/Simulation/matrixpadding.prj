@@ -1,0 +1,6 @@
+sv work "glbl.v"
+sv xil_defaultlib "AESL_automem_matrix_input.v"
+sv xil_defaultlib "AESL_automem_matrix_paded.v"
+sv xil_defaultlib "matrixpadding.autotb.v"
+sv xil_defaultlib "matrixpadding.v"
+

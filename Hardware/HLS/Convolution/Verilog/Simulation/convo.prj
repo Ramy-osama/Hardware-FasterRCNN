@@ -1,0 +1,7 @@
+sv work "glbl.v"
+sv xil_defaultlib "AESL_automem_conv_op.v"
+sv xil_defaultlib "AESL_automem_input_image.v"
+sv xil_defaultlib "AESL_automem_kernel.v"
+sv xil_defaultlib "convo.autotb.v"
+sv xil_defaultlib "convo.v"
+

@@ -1,0 +1,11 @@
+sv work "glbl.v"
+sv xil_defaultlib "AESL_automem_conv_op.v"
+sv xil_defaultlib "AESL_automem_input_image.v"
+sv xil_defaultlib "AESL_automem_kernel.v"
+sv xil_defaultlib "AESL_automem_out_r.v"
+sv xil_defaultlib "convo.autotb.v"
+sv xil_defaultlib "convo.v"
+sv xil_defaultlib "convo_matrix_paded.v"
+sv xil_defaultlib "matrixpadding.v"
+sv xil_defaultlib "Max_Pooling.v"
+
