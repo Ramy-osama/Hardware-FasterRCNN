@@ -1,0 +1,19 @@
+1- section I subsection a,b,c more subsection 1, 2, 3
+2- we use present simple tense 
+3- we talk in actions we did 
+4- in section II we discuss insert the name of the section (background)
+5- name the figure kol figure by2ool eh 
+6- you must refer to tables and figures
+7- Redraw the tables 
+8- write the latency as a number
+9- page layout breaks- continious insert, col=1 , we ba3deen ta7teeha we 7ot col =2 tany
+10- remove the interface unless we added 
+11- insert in captions and in paragraph 
+12- every figure has comment on it 
+13- v3 of the file
+14- refrence square brackets 
+15- Check Drs comments
+16- Check the PDF of the paper 
+17- send the word and pdf files
+18- 20/6/2020 @9PM
+19- proposed architechture 2 columns
