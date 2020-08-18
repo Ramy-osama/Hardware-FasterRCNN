@@ -7,7 +7,7 @@
 7- Redraw the tables 
 8- write the latency as a number
 9- page layout breaks- continious insert, col=1 , we ba3deen ta7teeha we 7ot col =2 tany
-10- remove the interface unless we added 
+10- remove the interface unless we added blocks diagram 
 11- insert in captions and in paragraph 
 12- every figure has comment on it 
 13- v3 of the file
