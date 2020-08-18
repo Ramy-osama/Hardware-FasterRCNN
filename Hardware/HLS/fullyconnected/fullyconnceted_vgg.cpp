@@ -1,6 +1,6 @@
 void fc ( float flattened[(conv_op_size/2)*(conv_op_size/2)*(conv_op_channels)],
 		    float bias[outputsizefc1],
-			float filter[outputsizefc1][(conv_op_size/2)*(conv_op_size/2)*(conv_op_channels)],
+			float filter[(conv_op_size/2)*(conv_op_size/2)*(conv_op_channels)] [outputsizefc1],
 			float Fc_output[outputsizefc1] 
 			
 			)
